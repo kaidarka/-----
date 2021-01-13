@@ -1,0 +1,34 @@
+.header
+    margin-top: 10px
+    &__burger
+        display: none 
+    &__menu
+        display: flex
+        align-items: center
+
+.nav
+    display: flex
+    justify-content: space-between
+    &__logo
+        & img
+            width: 150px
+            height: auto
+    &__list
+        display: flex
+        list-style: none
+    &__link
+        text-decoration: none
+        color: $black
+        font-size: 18px
+        font-weight: 400
+        margin-right: 15px
+        transition: all .3s
+        &:hover
+            color: $orange
+
+    &__phone
+        text-decoration: none
+        color: $orange
+        font-size: 18px
+        font-weight: 400
+

@@ -9,11 +9,15 @@ body {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 40px;
 }
 
 h2 {
   font-size: 16px;
+}
+
+h3 {
+  font-size: 24px;
 }
 
 p {
@@ -316,5 +320,110 @@ p {
 
 .footer__icon:last-child {
   margin-right: 0;
+}
+
+.join {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+.join__text {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.join__text-link {
+  display: block;
+}
+
+.join__coast {
+  font-size: 40px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.join__list {
+  margin-top: 30px;
+  list-style: none;
+}
+
+.join__list li {
+  margin-bottom: 20px;
+}
+
+.join__link {
+  text-decoration: none;
+  color: #c97902;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.join__link:hover {
+  border-bottom: 1px solid #c97902;
+}
+
+.join-textBlock {
+  margin-right: 50px;
+}
+
+.join-formBlock {
+  width: 35%;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.join-formBlock:hover {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.join-form__title {
+  margin-bottom: 10px;
+}
+
+.join-form__text {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.form-control input {
+  width: 95%;
+  height: 25px;
+  margin-bottom: 10px;
+  padding: 3px 5px;
+  border-radius: 7px;
+  border: 1px solid #000000;
+}
+
+.form-control input::-webkit-input-placeholder {
+  color: #000000;
+}
+
+.form-control input:-ms-input-placeholder {
+  color: #000000;
+}
+
+.form-control input::-ms-input-placeholder {
+  color: #000000;
+}
+
+.form-control input::placeholder {
+  color: #000000;
 }
 /*# sourceMappingURL=style.css.map */
